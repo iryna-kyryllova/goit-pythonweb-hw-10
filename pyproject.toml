@@ -1,0 +1,22 @@
+[project]
+name = "goit-pythonweb-hw-08"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Iryna Kyryllova",email = "keira.kirillova@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "asyncpg (>=0.30.0,<0.31.0)",
+    "black (>=24.10.0,<25.0.0)",
+    "alembic (>=1.14.1,<2.0.0)",
+    "pydantic[email] (>=2.10.5,<3.0.0)",
+    "fastapi (>=0.115.7,<0.116.0)",
+    "uvicorn (>=0.34.0,<0.35.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
